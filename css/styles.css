@@ -12,3 +12,6 @@ article{
   text-align: center;
   color: white;
 }
+.container body {
+  background-color: blue;
+}
