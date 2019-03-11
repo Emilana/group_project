@@ -27,7 +27,7 @@ section.jubotron {
   }
 
   section.whybirmingham {
-    background-color: orange;
+    background-color: #379683;
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
@@ -40,7 +40,7 @@ section.jubotron {
   }
 
   section.top-picks{
-    background-color: grey;
+    background-color: #8EE4AF;
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
@@ -108,3 +108,7 @@ section.jubotron {
       text-align: center;
       font-size: 2em;
     }
+
+
+  .bg-light{
+    color: yellow;}
