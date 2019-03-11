@@ -11,9 +11,8 @@ section.jubotron {
   width: 100%;
   padding: 10% 0;}
 
-.carousel-image-1{
-  background-size: cover;
-  position: relative;
+.carousel-image-1 {
+  image-size: cover;
   box-sizing: content-box;
   width: 100%;
   padding: 10% 0;
