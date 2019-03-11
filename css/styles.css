@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+h1{
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  margin-top: 2em;
+}
+h2{
+  text-align: center;
+  font-size: 5em;
+  color: black;
+  margin-top: 2em;
+}
+article{
+  text-align: center;
+  color: black;
+}
+.container  body {
+  background-color: black;
+}
+
+#topsection {background-color: blue};
+
+
+
+https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew
+=======
 section.jubotron {
 
   background-image: url(https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew);
@@ -108,3 +135,4 @@ section.jubotron {
       text-align: center;
       font-size: 2em;
     }
+>>>>>>> 71e9c4970115d26115ee85f5ce262f2f7aab10b1
