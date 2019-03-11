@@ -1,6 +1,6 @@
 section.jubotron {
 
-  background-image: url(https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew);
+  background-image: url(http://s1.1zoom.me/b5050/931/Scotland_Houses_484696_3840x2400.jpg);
   background-position: center;
   webkit-background-size: cover;
   moz-background-size: cover;
@@ -27,7 +27,7 @@ section.jubotron {
   }
 
   section.whybirmingham {
-    background-color: #f49b42;
+    background-color: #ed981a;
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
@@ -47,7 +47,7 @@ section.jubotron {
   }
 
   section.top-picks{
-    background-color: #8EE4AF;
+    background-color: #f2ca1a;
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
