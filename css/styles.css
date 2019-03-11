@@ -1,5 +1,19 @@
-<<<<<<< HEAD
-h1{
+
+section.jubotron {
+
+  background-image: url(https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew);
+  background-position: center;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  box-sizing: content-box;
+  width: 100%;
+  padding: 10% 0;}
+
+  
+  h1{
   text-align: center;
   font-size: 5em;
   color: white;
