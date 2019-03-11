@@ -38,6 +38,13 @@ section.jubotron {
     padding: 10% 0;
 
   }
+  #information {
+    text-align:center;
+    font-size: 1em;
+    color: black;
+    margin: 10%;
+    box-sizing: content-box;
+  }
 
   section.top-picks{
     background-color: #8EE4AF;
