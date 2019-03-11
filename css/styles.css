@@ -1,110 +1,21 @@
-section.jubotron {
-
-  background-image: url(https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew);
-  background-position: center;
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  box-sizing: content-box;
-  width: 100%;
-  padding: 10% 0;}
-
-
-  h1{
-    text-align: center;
-    font-size: 7em;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-  article{
-    text-align: center;
-    color: white;
-  }
-
-  section.whybirmingham {
-    background-color: orange;
-    background-position: center;
-    webkit-background-size: cover;
-    moz-background-size: cover;
-    o-background-size: cover;
-    background-size: cover;
-    box-sizing: content-box;
-    width: 100%;
-    padding: 10% 0;
-
-  }
-
-  section.top-picks{
-    background-color: grey;
-    background-position: center;
-    webkit-background-size: cover;
-    moz-background-size: cover;
-    o-background-size: cover;
-    background-size: cover;
-    box-sizing: content-box;
-    width: 100%;
-    padding: 10% 0;
-  }
-
-  a {
-    color: #ffa500;
-    webkit-transition: all 0.2s;
-    moz-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-
-  a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-  }
-
-  .gallery-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto; }
-
-    .gallery-box
-    .gallery-box-caption {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: rgba(255, 134, 227, 0.9);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;}
-
-    .gallery-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-    text-align: center;
+h1{
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  margin-top: 2em;
+}
+h2{
+  text-align: center;
+  font-size: 5em;
+  color: black;
+  margin-top: 2em;
+}
+article{
+  text-align: center;
+  color: black;
+}
+.container  body {
+  background-color: black;
 }
 
-.project-category{
-  font-size: 16px;
-  padding: 0 15px;
-  }
-
-  .text-faded{
-    color: rgba(255, 255, 255, 0.7);
-
-    }
-
-    h2{
-      color: white;
-      text-align: center;
-      font-size: 2em;
-    }
+#topsection {background-color: blue};
