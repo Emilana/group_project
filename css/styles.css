@@ -11,12 +11,24 @@ section.jubotron {
   width: 100%;
   padding: 10% 0;}
 
-.carousel-image-1 {
-  image-size: cover;
-  box-sizing: content-box;
-  width: 100%;
-  padding: 10% 0;
+
+.carousel-inner > .carousel-item > img {
+    margin: 0 auto;
+    width: auto;
 }
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    text-align: center;
+  }
 
   h1{
     text-align: center;
