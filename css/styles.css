@@ -1,17 +1,25 @@
-body {
-  background-image: url(https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew);
-}
-
 h1{
   text-align: center;
-  font-size: 10em;
+  font-size: 5em;
   color: white;
+  margin-top: 2em;
+}
+h2{
+  text-align: center;
+  font-size: 5em;
+  color: black;
   margin-top: 2em;
 }
 article{
   text-align: center;
-  color: white;
+  color: black;
 }
-.container body {
-  background-color: blue;
+.container  body {
+  background-color: black;
 }
+
+#topsection {background-color: blue};
+
+
+
+https://visitbirmingham.com/imageresizer/?image=%2Fdbimgs%2FCanon-Street.jpg&action=MediaGalleryNew
