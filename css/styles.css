@@ -11,6 +11,13 @@ section.jubotron {
   width: 100%;
   padding: 10% 0;}
 
+.carousel-image-1{
+  background-size: cover;
+  position: relative;
+  box-sizing: content-box;
+  width: 100%;
+  padding: 10% 0;
+}
 
   h1{
     text-align: center;
@@ -59,9 +66,9 @@ section.jubotron {
   }
 
   a:-webkit-any-link {
-    color: -webkit-link;
+
     cursor: pointer;
-    text-decoration: underline;
+
   }
 
   .gallery-box {
@@ -81,9 +88,10 @@ section.jubotron {
     opacity: 0;
     color: #fff;
     background: rgba(255, 134, 227, 0.9);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;}
+    webkit-transition: all 0.2s;
+    moz-transition: all 0.2s;
+    transition: all 0.2s;
+  }
 
     .gallery-box-caption-content {
     position: absolute;
