@@ -1,6 +1,6 @@
 section.jubotron {
 
-  background-image: url(http://s1.1zoom.me/b5050/931/Scotland_Houses_484696_3840x2400.jpg);
+  background-image: url(http://static1.squarespace.com/static/532dd2f1e4b05fcbbaccda02/55aa5390e4b03d37e3220b36/58177ce059cc689660bb2f64/1541175299385/St-Martins-Gate.jpg);
   background-position: center;
   webkit-background-size: cover;
   moz-background-size: cover;
@@ -34,10 +34,17 @@ section.jubotron {
     text-align: center;
     font-size: 7em;
     color: white;
+    text-shadow:
+    -1px -1px 0 #e26638,
+    1px -1px 0 #e26638,
+    -1px 1px 0 #e26638,
+    1px 1px 0 #e26638;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
+
+}
   }
   article{
     text-align: center;
@@ -54,6 +61,7 @@ section.jubotron {
     box-sizing: content-box;
     width: 100%;
     padding: 10% 0;
+
 
   }
   #information {
