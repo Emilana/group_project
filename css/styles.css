@@ -11,15 +11,6 @@ section.jubotron {
   width: 100%;
   padding: 10% 0;}
 
-<<<<<<< HEAD
-=======
-.carousel-image-1 {
-  image-size: cover;
-  box-sizing: content-box;
-  width: 100%;
-  padding: 10% 0;
-}
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
 
   h1{
     text-align: center;
@@ -36,11 +27,7 @@ section.jubotron {
   }
 
   section.whybirmingham {
-<<<<<<< HEAD
     background-color: #379683;
-=======
-    background-color: orange;
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
@@ -53,11 +40,7 @@ section.jubotron {
   }
 
   section.top-picks{
-<<<<<<< HEAD
     background-color: #8EE4AF;
-=======
-    background-color: grey;
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
     background-position: center;
     webkit-background-size: cover;
     moz-background-size: cover;
@@ -76,15 +59,9 @@ section.jubotron {
   }
 
   a:-webkit-any-link {
-<<<<<<< HEAD
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-=======
 
     cursor: pointer;
 
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
   }
 
   .gallery-box {
@@ -104,16 +81,10 @@ section.jubotron {
     opacity: 0;
     color: #fff;
     background: rgba(255, 134, 227, 0.9);
-<<<<<<< HEAD
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;}
-=======
     webkit-transition: all 0.2s;
     moz-transition: all 0.2s;
     transition: all 0.2s;
   }
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
 
     .gallery-box-caption-content {
     position: absolute;
@@ -138,10 +109,7 @@ section.jubotron {
       text-align: center;
       font-size: 2em;
     }
-<<<<<<< HEAD
 
 
   .bg-light{
     color: yellow;}
-=======
->>>>>>> 9ca6eaec8f22db7a82855ea6b9f1fdcb0cf33bf5
