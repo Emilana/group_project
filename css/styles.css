@@ -9,7 +9,8 @@ section.jubotron {
   position: relative;
   box-sizing: content-box;
   width: 100%;
-  padding: 10% 0;}
+  padding: 10% 0;
+}
 
 
 .carousel-inner > .carousel-item > img {
