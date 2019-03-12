@@ -12,138 +12,134 @@ section.jubotron {
   padding: 10% 0;
 }
 
+.gallery{
+  margin-top: 30px;
+}
 
 .carousel-inner > .carousel-item > img {
-    margin: 0 auto;
-    width: auto;
+  margin: 0 auto;
+  width: auto;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  width: 600px;
+  height: 500px;
 }
 
-  .carousel-caption {
+
+h1{
+  text-align: center;
+  font-size: 7em;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #e26638,
+  1px -1px 0 #e26638,
+  -1px 1px 0 #e26638,
+  1px 1px 0 #e26638;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+article{
+  text-align: center;
+  color: white;
+}
+
+section.whybirmingham {
+  background-color: #ed981a;
+  background-position: center;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  box-sizing: content-box;
+  width: 100%;
+  padding: 10% 0;
+
+}
+
+
+#information {
+  text-align:center;
+  font-size: 1em;
+  color: black;
+  margin: 10%;
+  box-sizing: content-box;
+}
+
+section.top-picks{
+  background-color: #f2ca1a;
+  background-position: center;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  box-sizing: content-box;
+  width: 100%;
+  padding: 10% 0;
+}
+
+a.nav-item{
+  color: #ffa500;
+
+}
+
+a:-webkit-any-link {
+
+  cursor: pointer;
+}
+
+
+
+
+.carousel-caption{
+    margin-top: 20px;
     position: relative;
     left: auto;
     right: auto;
-    text-align: center;
   }
 
-  h1{
-    text-align: center;
-    font-size: 7em;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #e26638,
-    1px -1px 0 #e26638,
-    -1px 1px 0 #e26638,
-    1px 1px 0 #e26638;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+
+  .carousel-controls {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 43%;
+  }
+
+
+
+.carousel-controls a:hover {
+
+transition: all .2s ease-in-out;
+ transform: scale(1.4);
 
 }
-  }
-  article{
-    text-align: center;
-    color: white;
-  }
 
-  section.whybirmingham {
-    background-color: #ed981a;
-    background-position: center;
-    webkit-background-size: cover;
-    moz-background-size: cover;
-    o-background-size: cover;
-    background-size: cover;
-    box-sizing: content-box;
-    width: 100%;
-    padding: 10% 0;
-
-
-  }
-  #information {
-    text-align:center;
-    font-size: 1em;
-    color: black;
-    margin: 10%;
-    box-sizing: content-box;
+  #prev {
+    margin-left: 10%;
   }
 
-  section.top-picks{
-    background-color: #f2ca1a;
-    background-position: center;
-    webkit-background-size: cover;
-    moz-background-size: cover;
-    o-background-size: cover;
-    background-size: cover;
-    box-sizing: content-box;
-    width: 100%;
-    padding: 10% 0;
-  }
-
-  a {
-    color: #ffa500;
-    webkit-transition: all 0.2s;
-    moz-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-
-  a:-webkit-any-link {
-
-    cursor: pointer;
-
-  }
-
-  .gallery-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto; }
-
-    .gallery-box
-    .gallery-box-caption {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: rgba(255, 134, 227, 0.9);
-    webkit-transition: all 0.2s;
-    moz-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-
-    .gallery-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-.project-category{
-  font-size: 16px;
-  padding: 0 15px;
+  #next{
+    margin-right: 10%;
   }
 
   .text-faded{
     color: rgba(255, 255, 255, 0.7);
 
-    }
+  }
 
-    h2{
-      color: white;
-      text-align: center;
-      font-size: 2em;
-    }
-
-
-  .bg-light{
-    color: yellow;}
+  h2{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+  }
