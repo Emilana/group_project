@@ -12,24 +12,8 @@ section.jubotron {
   padding: 10% 0;
 }
 
-.gallery{
-  margin-top: 30px;
-}
 
-.carousel-inner > .carousel-item > img {
-  margin: 0 auto;
-  width: auto;
-}
-
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  width: 600px;
-  height: 500px;
-}
-
-
-h1{
+#main-title{
   text-align: center;
   font-size: 7em;
   color: white;
@@ -44,6 +28,15 @@ h1{
   margin: 0;
 }
 
+h1{
+  text-align: center;
+  font-size: 7em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
 article{
   text-align: center;
   color: white;
@@ -83,17 +76,29 @@ section.top-picks{
   padding: 10% 0;
 }
 
+.gallery{
+  margin-top: 30px;
+}
+
+.carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+  width: auto;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  height: 500px !important;
+  width: 900px !important;
+}
+
+
 a.nav-item{
   color: #ffa500;
-
 }
 
 a:-webkit-any-link {
-
   cursor: pointer;
 }
-
-
 
 
 .carousel-caption{
@@ -105,23 +110,22 @@ a:-webkit-any-link {
 
 
   .carousel-controls {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  position: absolute;
-  width: 100%;
-  top: 43%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 43%;
   }
 
 
+  .carousel-controls a:hover {
 
-.carousel-controls a:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.4);
 
-transition: all .2s ease-in-out;
- transform: scale(1.4);
-
-}
+  }
 
   #prev {
     margin-left: 10%;
@@ -129,11 +133,6 @@ transition: all .2s ease-in-out;
 
   #next{
     margin-right: 10%;
-  }
-
-  .text-faded{
-    color: rgba(255, 255, 255, 0.7);
-
   }
 
   h2{
