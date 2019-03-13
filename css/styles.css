@@ -1,9 +1,8 @@
 
 
 
-section.jubotron {
-
-  background-image: url(http://static1.squarespace.com/static/532dd2f1e4b05fcbbaccda02/55aa5390e4b03d37e3220b36/58177ce059cc689660bb2f64/1541175299385/St-Martins-Gate.jpg);
+ section.jubotron{
+ background: url('../Birmingham.jpg');
   background-position: center;
   background-attachment:fixed;
   webkit-background-size: cover;
@@ -13,7 +12,8 @@ section.jubotron {
   position: relative;
   box-sizing: content-box;
   width: 100%;
-  padding: 10% 0;
+  height: 100vh;
+  padding: 0;
 }
 
 
@@ -29,7 +29,23 @@ section.jubotron {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin:0;
+  padding-top: 15%;
+}
+
+#button{
+  background-color: white;
+           border-radius: 50px;
+           color: black;
+           padding: 20px 34px;
+           align-items: center;
+           text-decoration: none;
+           display: block;
+           font-size: 20px;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 30px;
+           cursor: pointer;
 }
 
 h1{
@@ -41,10 +57,7 @@ h1{
   justify-content: center;
   margin: 0;
 }
-article{
-  text-align: center;
-  color: white;
-}
+
 
 section.whybirmingham {
   background-color: #ed981a;
@@ -63,7 +76,7 @@ section.whybirmingham {
 #information {
   text-align:center;
   font-size: 1em;
-  color: black;
+  color: white;
   margin: 10%;
   box-sizing: content-box;
 }
