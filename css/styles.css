@@ -1,4 +1,7 @@
 
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 
 
  section.jubotron{
@@ -33,30 +36,65 @@
   padding-top: 15%;
 }
 
-#button{
+div.buttons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+#yes-button{
   background-color: white;
            border-radius: 50px;
            color: black;
            padding: 20px 34px;
-           align-items: center;
+
            text-decoration: none;
-           display: block;
+
            font-size: 20px;
-           margin-left: auto;
-           margin-right: auto;
-           margin-top: 30px;
+
+           margin-top:30px;
+
+
+
            cursor: pointer;
            border:none;
+}
 
+#no-button{
+  background-color:black;
+  color:white;
+  border-radius:30px;
+  padding: 15px 29px;
+  text-decoration:none;
+
+  margin-top:30px;
+
+
+  font-size:15px;
+  cursor:pointer;
+  border:none;
 
 }
 
-#button:hover {
+#closebutton{
+  border-radius:30px;
+  background-color:#e26638;
+  color:white;
+  border:none;
+}
+
+
+
+#yes-button:hover{
   background-color: #3e8e41;
   color: white;
   transition: all .2s ease-in-out;
   transform: scale(1.4);
 }
+
+
+
 
 h1{
   text-align: center;
@@ -67,6 +105,52 @@ h1{
   justify-content: center;
   margin: 0;
 }
+
+.socialmedia {
+  width: 50px;
+  position: absolute;
+ width: 100%;
+ top: 50%;
+ text-align: center;
+ transform: translateY(-50%);
+ display: inline-block;
+   vertical-align: middle;
+   position: relative;
+   width: 100px;
+   height: 100px;
+
+
+
+ }
+
+
+
+
+.fa:hover {
+  opacity: 0.7;
+  padding: 20px;
+
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #fb3958;
+  color: white;
+}
+
 
 
 section.whybirmingham {
@@ -114,7 +198,7 @@ section.top-picks{
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
-  height: 500px !important;
+  height: 520px !important;
   width: 900px !important;
 }
 
@@ -168,4 +252,18 @@ a:-webkit-any-link {
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
+  }
+
+  h4{
+    font-size: 0.75em;
+    font-weight: lighter;
+    text-align:center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 10px;
+    box-sizing: content-box;
+    padding:10px;
+    line-height: 1.5;
+
+
   }

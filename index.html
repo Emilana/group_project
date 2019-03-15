@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet">
   <link href="js/scripts.js" rel="javascript">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>Brummie</title>
 </head>
 
@@ -45,10 +47,51 @@
 
   <!--section 1-->
   <section class="jubotron" id="main">
+
     <div class="container">
+
       <h1 id="main-title">Do you want to be a Brummie?</h1>
-      <button id="button" onclick="window.location.href = 'https://w3docs.com';"><strong>YES<strong></button>
-    </div>
+
+      <div class="buttons">
+        <button id="yes-button" class="btn btn-primary"><strong>YES</strong></button>
+          <button id="no-button" class="btn btn-secondary" data-toggle="modal" data-target=#errormessage><strong>No</strong></button>
+          </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="errormessage" tabindex="-1" role="dialog" aria-labelledby="errormessagelabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h5 class="modal-title" id="errormessagelabel">Error</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                <div class="modal-body">
+                  <p id="errorparagraph">jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>
+                </div>
+
+                <div class="modal-footer">
+                  <button id="closebutton" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+<!--social buttons-->
+<div class="socialmedia">
+  <ul class="social-icons icon-circle list-unstyled list-inline">
+<li>  <a href="#" <i class="fa fa-facebook"></i></a></li>
+<li>  <a href="#" <i class="fa fa-twitter"></i></a></li>
+<li>  <a href="#" <i class="fa fa-instagram"></i></a><li>
+</div>
+
 </section>
 <!--end of section 1-->
 
@@ -89,6 +132,8 @@
             <img class="img-responsive" src="http://www.custardfactory.co.uk/wp-content/uploads/2013/10/about1-1200x460.jpg" alt="The Custard Factory">
             <div class="carousel-caption">
               <h3><strong>The Custard Factory</strong></h3>
+              <h4>The Custard Factory is the UK's leading destination for creative and digital businesses, independent shops and alternate culture outside London.</h4>
+
             </div>
           </div>
 
@@ -96,6 +141,8 @@
             <img class="img-responsive" src="http://www.bqlive.co.uk/resizer/-1/-1/true/1517220170266.jpg--.jpg?1517220170000" alt="Vic Square">
             <div class="carousel-caption">
               <h3><strong>Victoria Square</strong></h3>
+              <h4>Victoria Square is a pedestrianised public square in Birmingham, England.
+                <br> It is home to both the Town Hall and the Council House, and directly adjacent to Chamberlain Square.</br></h4>
             </div>
           </div>
 
@@ -103,6 +150,8 @@
             <img class="img-responsive" src="https://a.jtcstatic.com/upload/auto/flights/cities/600x315/bhx.jpg" alt="Canals">
             <div class="carousel-caption">
               <h3><strong>The Canals</strong></h3>
+              <h4>Birmingham has 35 miles of canals, which is said to be more than Venice.
+                <br>They're enjoyed by walkers, cyclists, and narrowboat owners and they are a reminder of a unique industrial history.</br> </h4>
             </div>
           </div>
 
@@ -110,6 +159,8 @@
             <img class="img-responsive" src="https://spectator.imgix.net/content/uploads/2013/06/status-anxiety.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=611&h=400" alt="Canals">
             <div class="carousel-caption">
               <h3><strong>Cadbury World</strong></h3>
+              <h4>Cadbury World is located in the grounds of the original Cadbury factory, but isn't a tour of the factory itself.
+                <br> Instead, you'll discover the history, the making and the magic of Cadbury confectionery as you journey through our chocolatey zones.</br></h4>
             </div>
           </div>
 
@@ -117,6 +168,27 @@
             <img class="img-responsive" src="https://i2-prod.birminghammail.co.uk/incoming/article7927416.ece/ALTERNATES/s1227b/The-Library-of-Birmingham-4.jpg" alt="Canals">
             <div class="carousel-caption">
               <h3><strong>The Library of Birmingham</strong></h3>
+              <h4>The ten-level Library shares a spacious entrance and foyer as well as a flexible studio theatre seating 300 people with the Birmingham Repertory Theatre.
+                <br>Sited in Centenary Square it, along with The REP and Symphony Hall, forms a new cultural heart for the city.</br></h4>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img class="img-responsive" src="https://media.timeout.com/images/102044087/image.jpg" alt="Museum">
+            <div class="carousel-caption">
+              <h3><strong>Birmingham Museum & Art Gallery</strong></h3>
+            <h4>Birmingham Museum and Art Gallery (BMAG) first opened in 1885. It is housed in a Grade II* listed city centre landmark building.
+              <br>There are over 40 galleries to explore that display art, applied art, social history, archaeology and ethnography. </br></h4>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Bull_sculpture_at_the_Bull_Ring%2C_Birmingham_-_DSCF0527.JPG" alt="Bull">
+            <div class="carousel-caption">
+              <h3><strong>The Bullring</strong></h3>
+              <h4>The Bull Ring is a major commercial area of central Birmingham. <br>
+                 It has been an important feature of Birmingham since the Middle Ages, when its market was first held. </br></h4>
             </div>
           </div>
 </div>
