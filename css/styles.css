@@ -45,7 +45,7 @@ body{
            font-size: 15px;
            cursor: pointer;
            border:none;
-           margin-right: 40%;
+
 }
 
 #no-button{
@@ -54,14 +54,16 @@ body{
   border-radius:30px;
   padding: 15px 29px;
   text-decoration:none;
-  margin-top:30px;
   font-size: 15px;
   cursor:pointer;
   border:none;
 
 
 }
-
+.buttons{
+  display:table;
+  margin: 0 auto;
+}
 #closebutton{
   border-radius:30px;
   background-color:#e26638;
