@@ -62,6 +62,7 @@ body{
 .buttons{
   display:table;
   margin: 0 auto;
+	margin-top:5%;
 }
 
 #closebutton{
@@ -144,14 +145,10 @@ section.top-picks{
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
-  height: 520px !important;
-  width: 900px !important;
+  height: 320px !important;
+  width: 700px !important;
 }
 
-
-a.nav-item{
-  color: #ffa500;
-}
 
 a:-webkit-any-link {
   cursor: pointer;
@@ -238,8 +235,12 @@ a:-webkit-any-link {
 	cursor:pointer;
 }
 
+.fa{
+	color: #BC4639;
+}
+
 .subscribe{
-	margin-top:auto;
+	margin-top:20px;
 }
 
 		/* Style the input elements and the submit button */
@@ -261,8 +262,12 @@ a:-webkit-any-link {
 		  color: white;
 		  border: none;
 			border-radius:30px;
-		  padding: 15px 29px;
+		  padding: 15px 2px;
 			cursor:pointer;
+			width:20vh;
+			display:table;
+	    margin:0 auto;
+			margin-top: 5%;
 		}
 
 		input[type=submit]:hover {
