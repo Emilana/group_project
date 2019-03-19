@@ -36,8 +36,7 @@ body{
   padding-top: 15%;
 }
 
-<<<<<<< HEAD
-=======
+
 div.buttons{
   display: block;
   margin-left: auto;
@@ -48,8 +47,6 @@ div.buttons{
   transform: translate(-50%, -50%);
 
 
-}
->>>>>>> 4440a37ecf4582d4d8bc30dda819fadc41dfd817
 #yes-button{
   background-color: white;
            border-radius: 50px;
