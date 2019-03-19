@@ -54,18 +54,16 @@ div.buttons{
 
 >>>>>>> 4ae80f099cb5f1ad5fd0ca21df10bef1a9a09e99
 #yes-button{
-  background-color: white;
-           border-radius: 50px;
+           background-color: white;
+           border-radius: 30px;
            color: black;
-           padding: 20px 34px;
+           padding: 15px 29px;
            text-decoration: none;
-           font-size: 20px;
-           margin-top:30px;
+           font-size: 15px;
            cursor: pointer;
            border:none;
-           margin-right: 55%;
            margin-left: 55%;
-
+           margin-right: 55%;
 }
 
 #no-button{
@@ -75,7 +73,7 @@ div.buttons{
   padding: 15px 29px;
   text-decoration:none;
   margin-top:30px;
-  font-size:15px;
+  font-size: 15px;
   cursor:pointer;
   border:none;
   margin-left: 55%;
@@ -89,6 +87,7 @@ div.buttons{
   background-color:#e26638;
   color:white;
   border:none;
+
 }
 
 #yes-button:hover{
@@ -179,7 +178,7 @@ section.whybirmingham {
 }
 
 section.top-picks{
-  background-color: #5c2018;
+  background-color: #D4A59A;
   background-position: center;
   webkit-background-size: cover;
   moz-background-size: cover;
@@ -269,7 +268,7 @@ a:-webkit-any-link {
     line-height: 1.5;}
 
 	section.contact {
-		  background-color: #ed981a;
+		  background-color: #F3E0DC;
 		  background-position: center;
 		  webkit-background-size: cover;
 		  moz-background-size: cover;
