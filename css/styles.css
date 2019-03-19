@@ -39,15 +39,7 @@ body{
 <<<<<<< HEAD
 =======
 div.buttons{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-	margin:0;
-	position:absolute;
-	-ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-
+  margin: 0 auto;
 }
 >>>>>>> 4440a37ecf4582d4d8bc30dda819fadc41dfd817
 #yes-button{
@@ -60,6 +52,9 @@ div.buttons{
            margin-top:30px;
            cursor: pointer;
            border:none;
+           margin-right: 55%;
+           margin-left: 55%;
+
 }
 
 #no-button{
@@ -68,11 +63,13 @@ div.buttons{
   border-radius:30px;
   padding: 15px 29px;
   text-decoration:none;
-
   margin-top:30px;
   font-size:15px;
   cursor:pointer;
   border:none;
+  margin-left: 55%;
+  margin-right: 55%;
+
 
 }
 
@@ -88,6 +85,7 @@ div.buttons{
   color: white;
   transition: all .2s ease-in-out;
   transform: scale(1.4);
+
 }
 
 h1{
