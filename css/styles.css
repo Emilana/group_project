@@ -277,3 +277,20 @@ a:-webkit-any-link {
 		input[type=submit]:hover {
 		  opacity: 0.8;
 		}
+
+
+		.mapbackground {
+			background-image: url("http://ontheworldmap.com/uk/city/birmingham/birmingham-tourist-map.jpg");
+			background-position: center;
+		  background-attachment: fixed;
+		  webkit-background-size: cover;
+		  moz-background-size: cover;
+		  o-background-size: cover;
+		  background-size: cover;
+		  position: relative;
+		  box-sizing: content-box;
+		  width: 20%;
+		  height: 50vh;
+		  padding: 0;
+
+		}
