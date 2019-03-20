@@ -3,7 +3,6 @@ body{
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-
  section.jumbotron{
  background: url('../Birmingham.jpg');
   background-position: center;
@@ -21,7 +20,7 @@ body{
 }
 
 section.jumbotron {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     margin-bottom: 0;
 
 }
