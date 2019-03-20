@@ -122,6 +122,7 @@ section.whybirmingham {
   width: 100%;
   padding: 10% 0;
 
+
 }
 
 
@@ -289,12 +290,11 @@ a:-webkit-any-link {
 	footer{
 		display:block;
 		align-items: center;
-		background-color: black;
+		background-color: #BC4639;
 		color:white;
-		line-height: 1.2;
+		line-height: 0.5;
 		text-align: center;
 		box-sizing: content-box;
-		padding:10px;
-
+		padding:20px;
 
 	}
