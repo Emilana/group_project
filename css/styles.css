@@ -286,18 +286,15 @@ a:-webkit-any-link {
 		}
 
 
-		.mapbackground {
-			background-image: url("http://ontheworldmap.com/uk/city/birmingham/birmingham-tourist-map.jpg");
-			background-position: center;
-		  background-attachment: fixed;
-		  webkit-background-size: cover;
-		  moz-background-size: cover;
-		  o-background-size: cover;
-		  background-size: cover;
-		  position: relative;
-		  box-sizing: content-box;
-		  width: 20%;
-		  height: 50vh;
-		  padding: 0;
+	footer{
+		display:block;
+		align-items: center;
+		background-color: black;
+		color:white;
+		line-height: 1.2;
+		text-align: center;
+		box-sizing: content-box;
+		padding:10px;
 
-		}
+
+	}
